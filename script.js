@@ -1,7 +1,7 @@
 function mostrarTela(nome){
-    const tela = document.querySelectorAll('section')
-    tela.forEach(tela => {
-        tela.style.display = 'none';
+    const telas = document.querySelectorAll('section')
+    telas.forEach(telas => {
+        telas.style.display = 'none';
     });
 
     const telaEscolhida = document.getElementById('tela-' + none)
